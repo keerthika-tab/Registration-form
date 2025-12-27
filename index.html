@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Colorful Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>✨ Register Here ✨</h2>
+    <button class="toggle-btn"
+    id="darkToggle">🌙 Dark Mode</button>
+
+    <form id="registerForm">
+      
+      <div class="field">
+        <input type="text" id="name" placeholder="Enter your name">
+        <small class="error" id="nameError"></small>
+      </div>
+
+      <div class="field">
+        <input type="email" id="email" placeholder="Enter your email">
+        <small class="error" id="emailError"></small>
+      </div>
+
+      <div class="field">
+        <input type="password" id="password" placeholder="Enter password">
+        <small class="error" id="passwordError"></small>
+      </div>
+
+      <button type="submit" id="submitBtn" disabled>Submit</button>
+
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
